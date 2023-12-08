@@ -1,0 +1,220 @@
+*{ margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75 px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#c7c7d1, #dcdce0 ,#d8dde6,#fafcff);
+
+}
+img{
+    height: 75px;
+    width: 500px;
+    margin-left: 0%;
+    margin-top: 0%;
+    position: absolute;
+    top: 0px;
+    left:41px;
+    right: 150px;
+    }
+
+footer{
+    background-color: #111;
+    padding: 50px;
+    margin-top: auto;
+
+}
+.footerContainer{
+    width :100%;
+    padding: 50px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+.socialIcons a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color: black;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+
+
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 1.3em;
+
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 0px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+    text-align: center;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing:1px ;
+    font-weight:200 ;
+    margin: 0px 5px;
+    text-align: centers;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 250vh;
+}
+
+nav ul{
+    float: right;
+
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: serif;
+    color: #1a0786;
+    font-size: 19px;
+    padding: 0px 14px;
+    display: block;
+}
+nav ul li:hover ul{
+    display: block;
+
+}
+nav ul li a:hover{
+    background-color:#c7c7d1, #8686db ,#d8dde6,#fafcff;    
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color:#c7c7d1, #dcdce0 ,#d8dde6,#fafcff;
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li ul li{
+    line-height: 1;
+    width: 190 px;
+    padding:0px ;
+    border-radius: 5px;
+}
+nav ul li ul li a{
+    padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+    background-color: #c7c7d1;
+}
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    padding-top:300px;
+  
+}
+
+header{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	padding:5px; 
+	
+	width:100%; 
+	z-index:999; 
+} 
+h1{
+    text-align: center;
+    padding:100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0845a1;
+    
+
+}
+.about{
+    width: 15px;
+  height: 30px;
+ transform: translate(-50% -50%);
+  
+  top:50%;
+  left: 50%;
+ 
+
+}
+.about img{
+    height:50%;
+width: 100%;
+padding-top: 50px;
+}
+
+.about:hover .overlay{
+    opacity: 0.8;
+}
+
+.cs h1{
+    padding: 25px;
+}
+.cs p{
+    padding: 27px;
+}
+.co h1{
+padding: 350px;
+margin-top: 100px;
+}
+.co h1 h1{
+    margin-top: 2000px;
+    padding: 0px;
+}
+.co p{
+   padding:0px ; 
+   text-align: center;
+   top: 0px;
+   position: relative;
+   margin-top: -275px;
+}
